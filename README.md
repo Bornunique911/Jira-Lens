@@ -30,6 +30,10 @@ Jira-Lens can be easily used from the command line
 ```console
 git clone https://github.com/MayankPandey01/Jira-Lens.git
 ```
+Change the directory using 
+```console
+cd Jira-Lens
+```
 - Complete the setup using 
 ```console
 python3 setup.py install
