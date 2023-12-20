@@ -84,11 +84,14 @@ git clone https://github.com/MayankPandey01/Jira-Lens.git
 The dependencies can be installed using the requirements file:
 
 Installation on Windows:  ![](https://camo.githubusercontent.com/920e3f8eb007a3834e641d27fddb9c102da3fd0c619785b52efb4dabcef2da1c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f776f726b666c6f772f7374617475732f6369706865792f6369706865792f507974686f6e2532306170706c69636174696f6e3f6c6162656c3d57696e646f7773)
-- python.exe -m pip3 install -r requirements.txt.
+```console
+python.exe -m pip3 install -r requirements.txt
+```
 
 Installation on Linux: ![](https://camo.githubusercontent.com/973cbf24b31b5d10c7f8d4f65fda4c696de8d3bed0923536820f9ac262b8ad08/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f776f726b666c6f772f7374617475732f6369706865792f6369706865792f507974686f6e2532306170706c69636174696f6e3f6c6162656c3d4c696e7578)
-- sudo python3 pip3 install -r requirements.txt.
-
+```console
+sudo python3 pip3 install -r requirements.txt.
+```
 
 ## 🐞 Bug Bounties
 
