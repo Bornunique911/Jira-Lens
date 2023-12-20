@@ -36,7 +36,12 @@ cd Jira-Lens
 ```
 - Complete the setup using 
 ```console
-python3 setup.py install
+sudo python3 setup.py install
+pip3 install progressbar colorama requests
+```
+**OR**
+```console
+pip3 install -r requirements.txt
 ```
 - Finally run the following command in the command line to check whether everything is working fine or not.
 ```console
