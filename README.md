@@ -25,10 +25,19 @@ Jira is a proprietary issue tracking product developed by Atlassian that allows 
 This tool Performs 25+ Checks including CVE's and Multiple Disclosures on the Provided JIRA Instance.
 
 # 🚀 Usage
-Jira-Lens can be easily  used from the command line 
-- Clone this Repo Using ` git clone https://github.com/MayankPandey01/Jira-Lens.git`
-- Complete the setup using `python3 setup.py install`
-- `python3 Jira-Lens.py -u {URL}`
+Jira-Lens can be easily used from the command line 
+- Clone this Repo Using 
+```console
+git clone https://github.com/MayankPandey01/Jira-Lens.git
+```
+- Complete the setup using 
+```console
+python3 setup.py install
+```
+- Finally run the following command in the command line to check whether everything is working fine or not. The following command if successful will display the help menu of the toolgit clone https://github.com/MayankPandey01/Jira-Lens.git.
+```console
+python3 Jira-Lens.py -u {URL}
+```
 
 ![render1636911439843](https://user-images.githubusercontent.com/29165227/141692149-7b68504e-410d-43a5-b20e-d8c9963d260d.gif)
 
@@ -41,7 +50,7 @@ Jira-Lens can be easily  used from the command line
 
 
 # Docker setup and usage
-```
+```console
 git clone https://github.com/MayankPandey01/Jira-Lens.git
 cd Jira-Lens
 docker build . -t jira-lens
@@ -52,11 +61,15 @@ docker run -v "$(PWD)/Jira-Lens/output":/app/Jira-Lens/output jira-lens <url>
 
 ## 🔨 Using pip
 
-```$ pip install Jira-Lens```
+```console
+pip install Jira-Lens
+```
 
 ## 🔨 Using Git
-- ` git clone https://github.com/MayankPandey01/Jira-Lens.git`
-- After Installation run the `setup.py` file to set up the tool.
+```console 
+git clone https://github.com/MayankPandey01/Jira-Lens.git
+```
+- After Installation process, run the **setup.py** file to set up the tool.
 
 ## 🧪 Recommended Python Version:
 - This Tool Only Supports Python 3.
